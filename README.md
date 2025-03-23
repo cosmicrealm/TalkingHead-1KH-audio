@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Due to environmental issues, downloading the TalkingHead-1KH dataset using pytube results in errors, and the downloaded audio files are empty. To address this, I modified the original code by replacing pytube with yt-dlp for video downloading, and used opencv and ffmpeg to reimplement the video editing and audio extraction processes.
+Due to environmental issues, downloading the TalkingHead-1KH dataset using pytube results in errors, and the downloaded audio files are empty. To address this, I modified the original code by **replacing pytube with yt-dlp for video downloading**, and **used opencv and ffmpeg to reimplement the video editing and audio extraction processes**.
 
 Original repository reference:  [TalkingHead-1KH](https://github.com/tcwang0509/TalkingHead-1KH)
 
