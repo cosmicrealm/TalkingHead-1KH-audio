@@ -23,13 +23,6 @@ https://github.com/user-attachments/assets/06c11201-c359-41dd-9442-cd2d3d0525f5
 https://github.com/user-attachments/assets/cb02a8ac-b0f5-4c40-8d7a-3f646249a572
 
 
-
-
-ffmpeg -i samples/1lSejjfNHpw_0075_S1_E728_L671_T47_R1471_B847.mp4 -c:v libx264 -c:a aac -strict experimental -movflags +faststart 1lSejjfNHpw_0075_S1_E728_L671_T47_R1471_B847.mp4
-
-ffmpeg -i samples/85UEFVcmIjI_0014_S93_E627_L558_T134_R1294_B870.mp4 -c:v libx264 -c:a aac -strict experimental -movflags +faststart 85UEFVcmIjI_0014_S93_E627_L558_T134_R1294_B870.mp4
-
-
 ## Dependency Installation
 
 Make sure the following dependencies are installed in your environment:
