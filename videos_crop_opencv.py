@@ -82,7 +82,7 @@ def trim_and_crop(input_dir, output_dir, clip_params):
         input_filepath, start_time, end_time, audio_output_filepath)
     os.system(cmd_extract_audio)
     # combine video and audio
-    cmd_combine = 'ffmpeg -y -i "{}" -i "{}" -c:v copy -c:a aac -strict experimental "{}"'.format(
+    cmd_combine = 'ffmpeg -y -i "{}" -i "{}" -c:v libx264 -c:a aac -strict experimental "{}"'.format(
         output_filepath, audio_output_filepath, output_filepath.replace('_mute', ''))
     os.system(cmd_combine)
     os.remove(output_filepath)

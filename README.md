@@ -14,6 +14,20 @@ Original repository reference:  [TalkingHead-1KH](https://github.com/tcwang0509/
 
 - Audio Extraction: Used ffmpeg to extract audio, ensuring completeness and usability.
 
+## Example Downloaded Videos in Val
+
+https://github.com/user-attachments/assets/09e87826-8e56-49c8-8a16-1a2a1b06cdb2
+https://github.com/user-attachments/assets/06c11201-c359-41dd-9442-cd2d3d0525f5
+https://github.com/user-attachments/assets/cb02a8ac-b0f5-4c40-8d7a-3f646249a572
+https://github.com/user-attachments/assets/e7af37ec-a111-468d-ae08-32df7edb7a0e
+
+
+
+ffmpeg -i samples/1lSejjfNHpw_0075_S1_E728_L671_T47_R1471_B847.mp4 -c:v libx264 -c:a aac -strict experimental -movflags +faststart 1lSejjfNHpw_0075_S1_E728_L671_T47_R1471_B847.mp4
+
+ffmpeg -i samples/85UEFVcmIjI_0014_S93_E627_L558_T134_R1294_B870.mp4 -c:v libx264 -c:a aac -strict experimental -movflags +faststart 85UEFVcmIjI_0014_S93_E627_L558_T134_R1294_B870.mp4
+
+
 ## Dependency Installation
 
 Make sure the following dependencies are installed in your environment:
@@ -39,7 +53,7 @@ bash run_scripts.sh train
 
 ## Future Plans
 
-I may share the processed dataset with attached audio at a later time.
+Due to the limitations of video availability and YouTube's IP restrictions, I may share the processed dataset with attached audio at a later time.
 
 ## Acknowledgment
 
